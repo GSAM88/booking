@@ -1,0 +1,126 @@
+#buttonMapDiv {
+    background-image: url('https://www.umhs-adolescenthealth.org/wp-content/uploads/2016/12/google-map-background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    margin-left: 5px;
+}
+
+select {
+    font-family: Arial,fontAwesome
+}
+
+select option {
+    font-family: Arial;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
+
+.checked {
+    color: orange;
+}
+
+div {
+    padding: 3px;
+}
+
+#hotelrow {
+    border-radius: 5px;
+    box-shadow: 5px 10px #c2bfbf;
+    background: rgb(255, 255, 255);
+    height: 200px;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#firstDiv {
+    background-color: rgb(45, 70, 117);
+}
+
+#secDiv {
+    background-color: rgb(219, 217, 212);
+}
+
+#maxPrice {
+    float: right;
+    color: blanchedalmond;
+}
+
+#city_input {
+    font-family: Arial, FontAwesome;
+}
+
+img {
+    max-width: 100%;
+    max-height: 190px;
+    padding: 5px;
+}
+
+#imageDiv {
+    text-align: center;
+
+}
+
+#priceDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#offerBtn {
+    margin-top: 35px;
+}
+
+#priceIcon1 {
+    font-size: 30px;
+    color: #28a745;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#priceIcon2 {
+    font-size: 15px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #4184cc;
+    border-color: #1d78da;
+}
+
+.whiteText {
+    color: blanchedalmond;
+}
+
+.selectWithoutColor {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: blanchedalmond;
+    background-color: rgb(45, 70, 117);
+    background-clip: padding-box;
+    border-left: 1px solid #ced4da;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+
+.sortCss {
+    margin-top: 8px;
+    text-align: right;
+}
